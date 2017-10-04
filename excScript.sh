@@ -1,5 +1,6 @@
 # excScript
 # replace Macole with your name 
+
 n=1
 for N in 0.1 1 50 
 do
