@@ -1,8 +1,9 @@
 # excScript
-# replace 
+# replace Macole with your name 
 n=1
-for N in {0.1,1,5}
+for N in 0.1 1 50 
 do
+echo "Creating Macole$n folder with N=$N"
 mkdir Macole${n}
 cd Macole${n}
 cp ../inputOrig.txt ./
