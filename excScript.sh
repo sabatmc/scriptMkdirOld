@@ -4,9 +4,9 @@
 n=1
 for N in 0.1 1 50 
 do
-echo "Creating Macole$n folder with N=$N"
-mkdir Macole${n}
-cd Macole${n}
+echo "Creating ziad$n folder with N=$N"
+mkdir ziad${n}
+cd ziad${n}
 cp ../inputOrig.txt ./
 cp ../input.txt ./
 sed -e "s/xxxx/${N}/" inputOrig.txt > input.txt
