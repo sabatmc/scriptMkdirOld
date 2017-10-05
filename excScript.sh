@@ -1,7 +1,7 @@
 # excScript
 # replace 
 n=1
-for N in {0.1,1,5}
+for N in 0.1 1 5
 do
 mkdir Sarkis${n}
 cd Sarkis${n}
