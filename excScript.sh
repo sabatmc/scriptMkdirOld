@@ -5,7 +5,7 @@ n=1
 for N in 0.1 1 50 
 do
 echo "Creating ziad$n folder with N=$N"
-mkdir ziad${n}
+mkdir jerjy${n}
 cd ziad${n}
 cp ../inputOrig.txt ./
 cp ../input.txt ./
