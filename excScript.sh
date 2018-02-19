@@ -6,7 +6,7 @@ for N in 0.1 1 50
 do
 echo "Creating george$n folder with N=$N"
 
-mkdir george ${n}
+mkdir george${n}
 cd george${n}
 cp ../inputOrig.txt ./
 cp ../input.txt ./
