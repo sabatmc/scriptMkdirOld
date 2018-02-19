@@ -13,5 +13,4 @@ sed -e "s/xxxx/${N}/" inputOrig.txt > input.txt
 #here you can call a executable that will run your simulation using the input parameter
 cd ../
 n=$(( $n + 1 ))
-don
-this is jerjy 
+done
