@@ -3,8 +3,8 @@
 n=1
 for N in 0.1 1 5
 do
-mkdir Sarkis${n}
-cd Sarkis${n}
+mkdir Micho${n}
+cd Micho${n}
 cp ../inputOrig.txt ./
 cp ../input.txt ./
 sed -e "s/xxxx/${N}/" inputOrig.txt > input.txt
