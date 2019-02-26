@@ -1,13 +1,13 @@
 # excScript
-# replace Macole with your name 
+# replace Sharbel with your name 
 
 n=1
 for N in 0.1 1 50 
 do
-echo "Creating Macole$n folder with N=$N"
+echo "Creating Sharbel$n folder with N=$N"
 
-mkdir Macole${n}
-cd Macole${n}
+mkdir Sharbel${n}
+cd Sharbel${n}
 cp ../inputOrig.txt ./
 cp ../input.txt ./
 sed -e "s/xxxx/${N}/" inputOrig.txt > input.txt
